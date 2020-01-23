@@ -182,11 +182,45 @@
             <a href="#" class="btn btn-outline-danger btn-lg">Learn More</a>
           </div>
           <div class="col-md-6">
-            <img src="img/laptop.png" alt="" class="img-fluid">
+            <img src="img/laptop.png" alt="" class="img-fluid" />
           </div>
         </div>
       </div>
     </section>
+    <!-- VIDEO PLAY -->
+    <section id="video-play">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container p-5">
+              <a
+                href="#"
+                class="video"
+                data-video="https://www.youtube.com/embed/A69j1XMsqcI"
+                data-toggle="modal"
+                data-target="#videoModal"
+                ><i class="fas fa-play fa-3x"></i
+              ></a>
+              <h2 class="p-3">See What We Do</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- VIDEO MODAL -->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss ="modal">
+              <span>&times;</span>
+            </button>
+            <iframe src="" height="350px" width="100%" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
