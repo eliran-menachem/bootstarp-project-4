@@ -20,3 +20,9 @@ $("#main-nav a").on("click", function(event) {
       );
     }
   });
+
+// Configure Slider
+$('.carousel').carousel({
+  interval: 6 * 1000,
+  pause:'hover'
+})
